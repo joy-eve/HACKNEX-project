@@ -15,15 +15,15 @@ An Agentic GenAI data analyst that answers questions about datasets and provides
 ## Architecture
 
 User Question
-↓
+→
 AI Agent
-↓
+→
 Generated Python Proof
-↓
+→
 Proof Executor
-↓
+→
 Verifier
-↓
+→
 Verified Answer / Rejection / Refusal
 
 ## Features
