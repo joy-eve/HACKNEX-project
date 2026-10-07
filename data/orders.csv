@@ -1,0 +1,11 @@
+order_id,customer_id,order_date,amount,currency,status
+O001,C001,2026-01-05,1200,INR,completed
+O002,C002,2026-01-07,100,USD,completed
+O003,C003,07/01/2026,80,GBP,completed
+O004,C004,2026-01-10,150,EUR,completed
+O005,C005,2026-01-12,200,USD,cancelled
+O006,C001,2026-01-15,800,INR,completed
+O007,C006,2026-01-18,500,INR,completed
+O008,C002,2026-01-20,120,USD,completed
+O009,C003,2026-01-21,90,GBP,completed
+O010,C001,2026-01-25,600,INR,completed

@@ -1,0 +1,29 @@
+PROOF-CARRYING DATA ANALYST POLICY
+
+1. Every numerical answer must include executable Python proof code.
+
+2. The generated code must use the provided dataset rather than inventing values.
+
+3. Before performing calculations, inspect:
+   - missing values
+   - duplicate records
+   - units
+   - currencies
+   - dates
+   - contradictory information
+
+4. Values with different currencies must not be combined unless valid exchange-rate information is available.
+
+5. Ambiguous dates must be identified instead of silently assuming an interpretation.
+
+6. If the available data is insufficient to answer the question reliably, do not guess.
+
+7. When a question cannot be answered reliably, return:
+   - answerable = false
+   - a clear reason explaining why
+
+8. Generated Python code must be executable.
+
+9. The final numerical answer must match the result produced by the generated code.
+
+10. Never fabricate missing data.
